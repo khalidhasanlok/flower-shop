@@ -8,11 +8,11 @@ font-family: 'Work Sans', sans-serif;
 }
 header{
     display: flex;
-    gap: 170px
-    ;
+    gap: 170px;
     background: rgba(229, 84, 115, 0.10);
     padding-right: 240px;
     padding-left: 240px;
+    justify-content: space-between;
     
 }
 
@@ -23,12 +23,23 @@ font-size: 80px;
 font-weight: 800;
 line-height: normal;
 max-width:700px;
+margin-bottom: 0px;
 }
 .section-des{
     color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
-font-style: normal;
-font-weight: 400;
+font-size: 19px;
+font-weight: 500;
 line-height: 30px; /* 166.667% */
 max-width: 650px;
+margin: 32px 0px 32px ;
+}
+.btn-primary{
+    color: #FFF;
+font-size: 20px;
+font-weight: 700;
+line-height: normal;
+border-radius: 8px;
+background: #E55473;
+padding: 20px 43px;
+border: none;
 }
