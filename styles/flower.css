@@ -204,7 +204,7 @@ header {
     width: max-content;
 }
 
-.form{
+.form {
     background-image: url(../Flower-Asset/Rectangle\ 9.png);
     background-repeat: no-repeat;
     max-width: 1440px;
@@ -213,24 +213,60 @@ header {
     align-items: center;
     margin-bottom: 100px;
 }
-.from{
+
+.from {
     display: block;
-    padding : 20px;
-    padding-right:300px;
-    border-radius: 8px;
+    padding: 20px;
+    padding-right: 300px;
+    border-radius: 9px;
     background: #FFF;
     border: none;
-    text-align: left;color: rgba(39, 39, 39, 0.60);
+    text-align: left;
+    color: rgba(39, 39, 39, 0.60);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
-.area{
+
+.area {
     padding: 109px 320px;
 }
-.from-btn{
+
+.from-btn {
     display: flex;
     gap: 16px;
     justify-content: center;
+}
+
+footer {
+    background: #111010;
+    margin-top: 130px;
+}
+
+.footer-des {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+    max-width: 650px;
+    margin: auto;
+    margin-top: -10px;
+   
+}
+.end{
+    color: rgba(255, 255, 255, 0.40);
+text-align: center;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding: 32px;
+}
+.footer-text{
+    padding: 128px;
+
 }
