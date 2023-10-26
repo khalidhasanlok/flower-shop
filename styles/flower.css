@@ -156,22 +156,25 @@ header {
 
 .bonus-section {
     display: flex;
-  justify-content: space-between;
+    justify-content: space-between;
     align-items: center;
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
-   
+
 }
-.rose{
-    padding-top:  100px;
+
+.rose {
+    padding-top: 100px;
     padding-right: 400px;
     padding-bottom: 100px;
 }
-.text-part{
-    padding-left:420px ;
+
+.text-part {
+    padding-left: 420px;
     text-align: center;
 }
-#btn-primary{
+
+#btn-primary {
     color: #FFF;
     font-size: 20px;
     font-weight: 700;
@@ -182,5 +185,52 @@ header {
     border: none;
     margin: 0px;
     text-align: center;
-    justify-content:center;
+    justify-content: center;
+}
+
+.text {
+    padding-top: 130px;
+}
+
+.insta-image {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+
+}
+
+.insta {
+    height: max-content;
+    width: max-content;
+}
+
+.form{
+    background-image: url(../Flower-Asset/Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 130px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.from{
+    display: block;
+    padding : 20px;
+    padding-right:300px;
+    border-radius: 8px;
+    background: #FFF;
+    border: none;
+    text-align: left;color: rgba(39, 39, 39, 0.60);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.area{
+    padding: 109px 320px;
+}
+.from-btn{
+    display: flex;
+    gap: 16px;
+    justify-content: center;
 }
